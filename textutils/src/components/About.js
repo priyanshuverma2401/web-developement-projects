@@ -1,8 +1,9 @@
 import React from "react";
 
-export default function () {
+export default function About() {
   return (
     <div className="container">
+      <h1>About Us</h1>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -94,6 +95,9 @@ export default function () {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container my-3">
+      <button type="button" className="btn bg-primary">Enable dark mode</button>
       </div>
     </div>
   );
